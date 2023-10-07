@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -11,3 +12,4 @@ sequenceDiagram
 
     server-->>browser: 201 Created status code
     deactivate server
+```
