@@ -8,7 +8,7 @@ sequenceDiagram
     browser->>server: POST html document "note: '...'" to /exampleapp/new_note
     activate server
 
-    Note right of server: The server adds the note and sends a response.
+    Note left of server: The server adds the note and sends a response.
 
     server-->>browser: 302 redirect
     deactivate server
