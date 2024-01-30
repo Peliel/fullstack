@@ -14,9 +14,7 @@ const Course = ({ course }) => {
   const parts = course.parts.map(part => part.exercises)
   const total = parts.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 
-  console.log(total);
-  // Expected output: 10
-
+  console.log("From <Course />: total exercises:", total);
 
   return (
     <>
